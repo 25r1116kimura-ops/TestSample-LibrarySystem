@@ -43,12 +43,16 @@ pip install -r requirements.txt
 ### 4. データベースの初期化
 初回起動前、またはリセット時に実行してください。
 ```bash
-python database.py init
+python database.py init 
+↓
+Python seed.py
 ```
 
 ### 5. アプリケーションの起動
 ```bash
 python app.py
+↓
+python -m flask run
 ```
 ブラウザで [http://127.0.0.1:5000](http://127.0.0.1:5000) にアクセスしてください。
 
